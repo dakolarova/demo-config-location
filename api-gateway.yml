@@ -2,7 +2,6 @@ zuul:
   prefix: /api
   ignoredServices: '*'
   routes:
-    ps-prototype-backend: /backend/**
     api-gateway: /gateway/**
 
 server:
